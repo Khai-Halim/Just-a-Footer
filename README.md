@@ -1,0 +1,1 @@
+This is a just a footer. It is using flex-box and it is responsive.
