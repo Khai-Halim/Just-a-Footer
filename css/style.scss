@@ -3,6 +3,7 @@ $grey: #666;
 $grey-light: #aaa;
 $font-small: 0.9rem;
 
+//reset
 *{
     margin: 0;
     padding: 0;
@@ -16,25 +17,29 @@ h4{
     margin-top: 20px;
 }
 
+//center content and give max width
 .wrapper{
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
 
+//Create space as if there was a header.
 header{
     height: 40px;
-    background: yellow;
+    background: #f3f3f3;
 }
 
+//Create space as if there was some main content.
 main{
     min-height: 60vh;
-    background: blue;
+    background: $grey;
 }
 
+//Footer section
 footer{
+    //Links, Connect and About us
     .footer-1{
-        //margin-top: 40px;
         display: flex;
         justify-content: space-between;
         margin-top: 10px;
@@ -54,6 +59,8 @@ footer{
             }
         }
     }
+
+//The copyright part of the footer 
     .footer-2{
         margin-top: 40px;
         margin-bottom: 10px;
@@ -73,6 +80,7 @@ footer{
     }
 }
 
+//mobile version
 @media(max-width: 750px){
     .footer-1{
         flex-direction: column;
@@ -80,10 +88,10 @@ footer{
             padding-bottom: 14px;
             border-bottom: 1px solid $grey-light;
         }
-        
     }
 
     .footer-2{
+        margin-top: 20px !important; 
         a{
             display: block;
         }

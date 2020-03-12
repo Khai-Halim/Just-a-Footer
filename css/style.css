@@ -20,12 +20,12 @@ h4 {
 
 header {
   height: 40px;
-  background: yellow;
+  background: #f3f3f3;
 }
 
 main {
   min-height: 60vh;
-  background: blue;
+  background: #666;
 }
 
 footer .footer-1 {
@@ -84,6 +84,9 @@ footer .footer-2 p {
   .footer-1 ul {
     padding-bottom: 14px;
     border-bottom: 1px solid #aaa;
+  }
+  .footer-2 {
+    margin-top: 20px !important;
   }
   .footer-2 a {
     display: block;
