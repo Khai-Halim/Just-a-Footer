@@ -1,1 +1,1 @@
-This is a just a footer. It is using flex-box and it is responsive.
+This is just a footer. It is using flex-box and media queries for to be responsive.
